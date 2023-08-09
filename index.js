@@ -20,6 +20,7 @@ $(".features").on("mouseover" ,function(){
 $(".btn-block").on("click" ,function(){
     $(".btn-block").text("LOADING...");
     $(".btn-block").animate({opacity: 0.50});
+    break;
 });
 
 
